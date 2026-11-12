@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background: #e8e8e8;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  
+  min-height: 100vh;
+  background: white;
+  padding: 10px;
+}
+
+.header,
+.navigation,
+.hero,
+.register {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  height: 170px;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.navigation {
+  gap: 35px;
+}
+
+.navigation a,
+.contact {
+  color: #333;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.contact {
+  border: 1px solid #888;
+  width: 100px;
+  height: 32px;
+}
+
+.hero {
+  width: 85%;
+  margin: 10px auto;
+}
+
+h1 {
+  margin: 0;
+  color: #214b49;
+  font-size: 84px;
+}
+
+.intro > p {
+  margin: 42px 0;
+}
+
+.phone {
+  width: 170px;
+  padding: 10px;
+  background: #f3f3f3;
+}
+
+.register button {
+  padding: 10px 40px;
+  border: 0;
+  background: #edc5ad;
+}
+
+.users {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.users strong {
+  display: block;
+  color: #214b49;
+  font-size: 42px;
+  text-align: center;
+}
+
+.illustration {
+  width: min(840px, 100%);
+}
+
+.illustration img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
